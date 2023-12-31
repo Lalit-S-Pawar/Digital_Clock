@@ -20,7 +20,7 @@ setInterval(() => {
    var hrs = d.getHours();
 //    console.log(hrs)
    
-   if(hrs <= 12){
+   if(hrs < 12){
     document.getElementById('ampm').innerHTML = 'AM';
    }
    else{
